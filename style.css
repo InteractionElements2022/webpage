@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+.heading {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.heading ul {
+    display: flex;
+}
+
