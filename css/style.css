@@ -95,7 +95,7 @@ header {
 }
 
 .logo {
-  width: 541px;
+  max-width: 541px;
 }
 
 .logo img {
@@ -117,7 +117,7 @@ header {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  top: 660px;
+  bottom: 44px;
 }
 
 .lead1 {
@@ -166,7 +166,8 @@ header {
 .top {
   position: fixed;
   right: 38px;
-  top: 660px;
+  bottom: 44px;
+  z-index: 999;
 }
 
 .top p {
@@ -182,7 +183,7 @@ h2 {
 }
 
 .about-text {
-  width: 600px;
+  max-width: 600px;
   font-size: 1.2rem;
   line-height: 24px;
   letter-spacing: 5%;
@@ -192,10 +193,11 @@ h2 {
 
 .products {
   margin-top: 200px;
+  overflow: hidden;
 }
 
 .groups {
-  width: 865px;
+  max-width: 865px;
   height: 1044px;
   margin: 0 auto;
 }
@@ -260,8 +262,8 @@ h2 {
 }
 
 .product-img {
-  width: 260px;
-  height: 260px;
+  max-width: 260px;
+  max-height: 260px;
 }
 
 .member {
