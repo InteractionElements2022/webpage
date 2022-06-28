@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+    transition: 0.3s;
+  }
+  
+  a:hover {
+    opacity: 0.6;
+  }
+  
+  html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    margin: 0 auto;
+    font-family: "Inter";
+    color: #505a5f;
+    text-align: center;
+  }
+  
+  header {
+    height: 100vh;
+  }
+  
+  .heading {
+    position: fixed;
+    width: 100vw;
+    height: 80px;
+    font-weight: 600;
+    background-color: white;
+    z-index: 999;
+  }
+  
+  .heading nav {
+    line-height: 80px;
+    position: absolute;
+    right: 88px;
+  }
+  
+  .heading ul {
+    display: flex;
+  }
+  
+  .heading li {
+    list-style: none;
+    margin-left: 31px;
+    font-size: 1.4rem;
+    position: relative;
+  }
+  
+  .now::after {
+    content: "";
+    display: inline-block;
+    border-bottom: 2px solid #505a5f;
+    width: 120%;
+    height: 20px;
+    position: absolute;
+    color: rgba(0, 0, 0, 1);
+    left: 50%;
+    top: 35px;
+    transform: translateX(-50%);
+  }
+  
+  .not-now::after {
+    content: "";
+    display: inline-block;
+    border-top: 2px solid #505a5f;
+    opacity: 0.6;
+    width: 0%;
+    position: absolute;
+    color: rgba(0, 0, 0, 1);
+    left: 50%;
+    top: 55px;
+    transform: translateX(-50%);
+    transition: 0.3s;
+  }
+  
+  .not-now:hover::after {
+    width: 120%;
+  }
