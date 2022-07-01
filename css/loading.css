@@ -15,13 +15,13 @@
   /* Loading画像中央配置　*/
   #splash_logo {
       position: absolute;
-      top: 280px;
+      top: 50%;
       left: 50%;
-      transform: translateX(-50%);
+      transform: translateX(-50%) translateY(-50%);
   }
   
   /* Loading アイコンの大きさ設定　*/
-  #splash_logo svg{
+  #splash_logo svg {
       width: 541px;
   }
   
