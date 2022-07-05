@@ -184,10 +184,11 @@ h2 {
 
 .about-text {
   max-width: 600px;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   line-height: 24px;
   margin: 0 auto;
   text-align: left;
+  letter-spacing: 1px;
 }
 
 .products {
@@ -225,7 +226,7 @@ h2 {
 
 .product-text {
   font-weight: 400;
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   text-align: left;
   margin-bottom: 54px;
 }
@@ -270,7 +271,7 @@ h2 {
 }
 
 .member ~ p {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   line-height: 36px;
 }
 
@@ -279,10 +280,27 @@ footer {
   height: 80px;
   display: flex;
   justify-content: center;
+  position: relative;
 }
 
 footer img {
   width: 160px;
+}
+
+.qr {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 30px;
+  bottom: 30px;
+}
+
+.qr p {
+  font-size: 1.4rem;
+}
+
+.qr img {
+  width: 100%;
 }
 
 #particles-js{ 
