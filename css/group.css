@@ -184,7 +184,7 @@ p {
   max-width: 600px;
   margin: 0 auto;
   font-weight: 400;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   text-align: left;
   line-height: 24px;
 }
@@ -215,7 +215,7 @@ p {
 }
 
 .member ~ p {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   line-height: 36px;
   text-align: center;
 }
