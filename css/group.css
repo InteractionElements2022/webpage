@@ -198,9 +198,13 @@ p {
   justify-content: space-between;
 }
 
+.prototype-imgs img {
+  width: 100%;
+  object-fit: cover;
+}
+
 .prototype-imgs .img-col1 {
   width: 58.5%;
-  border: #505a5f solid 1px;
 }
 
 .prototype-imgs .img-col2 {
@@ -212,7 +216,12 @@ p {
 
 .prototype-imgs .img-small {
   height: 47.5%;
-  border: #505a5f solid 1px;
+}
+
+.mechanism-img {
+  max-width: 600px;
+  height: 426px;
+  margin: 0 auto 32px;
 }
 
 .member ~ p {
