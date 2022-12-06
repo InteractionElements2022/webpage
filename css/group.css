@@ -190,31 +190,40 @@ p {
   letter-spacing: 1px;
 }
 
-.prototype-imgs {
+.product-video {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.product-video video {
+  width: 100%;
+}
+
+.product-imgs {
   max-width: 600px;
   height: 426px;
-  margin: 0 auto 32px;
+  margin: 80px auto 32px;
   display: flex;
   justify-content: space-between;
 }
 
-.prototype-imgs img {
+.product-imgs img {
   width: 100%;
   object-fit: cover;
 }
 
-.prototype-imgs .img-col1 {
+.product-imgs .img-col1 {
   width: 58.5%;
 }
 
-.prototype-imgs .img-col2 {
+.product-imgs .img-col2 {
   display: flex;
   width: 38.5%;
   flex-flow: column;
   justify-content: space-between;
 }
 
-.prototype-imgs .img-small {
+.product-imgs .img-small {
   height: 47.5%;
 }
 
