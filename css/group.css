@@ -182,7 +182,7 @@ h2 {
 
 p {
   max-width: 600px;
-  margin: 0 auto;
+  margin: 0px auto;
   font-weight: 400;
   font-size: 1.4rem;
   text-align: left;
@@ -229,8 +229,20 @@ p {
 
 .mechanism-img {
   max-width: 600px;
-  height: 426px;
+  max-height: 1000px;
   margin: 0 auto 32px;
+}
+
+.mechanism-imgA{
+  max-width: 600px;
+}
+
+.mechanism-imgB{
+  max-width: 600px;
+}
+
+.mechanism-imgC{
+  max-width: 600px;
 }
 
 .member ~ p {
